@@ -1,6 +1,7 @@
 *{
-  padding:0;
-  margin:0;
+  height: auto; /*if more info comes on the page, it will stretch down*/ 
+  width: 1000px;
+  margin: 0 auto;
 } 
 .navigation{
   padding-top:15px;

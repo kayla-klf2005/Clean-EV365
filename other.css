@@ -1,0 +1,95 @@
+.navigation{
+  padding-top:15px;
+  padding-bottom:20px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:-1;
+  background-color:#FFE4C4;
+}
+
+.navbar-right{
+  float:right;
+  padding-left:7%;
+  padding:2%;
+  text-align:center;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:14px 16px;
+  color: #064F40; /*This is a kind of seagreen*/
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size:20px;
+  font-weight:720;
+}
+
+.navbar-right a:hover:not(.active){
+  text-decoration:underline;
+  background-color:white;
+}
+.navbar-logo{
+  padding-left:7%;
+  padding-top: 10px;
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size:30px;
+  font-weight:750;
+  text-decoration:none;
+  color:#064F40;
+}
+.footerStyle {
+ position: absolute;
+ bottom: 0px;
+ right:0;
+ z-index:-1;
+ height:40px;
+ background-color:#FFE4C4;
+}
+.footerStyle ul{
+  padding-top:0px;
+  padding-bottom:0px;
+  bottom:0px
+  width:100%;
+  z-index:-1;
+}
+.footerStyle li{
+  display:inline-block;
+  float:right;
+}
+
+.footerStyle li a{
+  text-decoration:none;
+  padding-right:20px;
+  color: #064F40; /*This is a kind of seagreen*/
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size:20px;
+  font-weight:720;
+}
+#BYT{
+  width: 370px;
+  height:400px;
+  padding:1px;
+}
+.Info{
+  @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+  @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');/*Imported font for all pages*/
+  font-family: 'Muli', sans-serif;
+  color: rgba(0, 0, 0, 0.8);
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: -.001em;
+  font-size: 20px;
+  padding: 2.5px;
+}
+.MS.AB {
+    font-family: 'Quicksand', sans-serif;
+    font-weight: 700;
+    font-style: normal;
+    font-size: 28px;
+    line-height: 1;
+    letter-spacing: -.02em;
+    color: rgba(0, 0, 0, 0.8);
+    }
+  body{
+    background-color: #FFF8DC;
+  }

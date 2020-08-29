@@ -1,0 +1,92 @@
+.navigation{
+  padding-top:15px;
+  padding-bottom:20px;
+  position:absolute;
+  top:0;
+  width:100%;
+  z-index:-1;
+  background-color:#FFE4C4;
+}
+
+.navbar-right{
+  float:right;
+  padding-left:7%;
+  padding:2%;
+  text-align:center;
+}
+
+.navbar-right a{
+  text-decoration:none;
+  padding:14px 16px;
+  color: #064F40; /*This is a kind of seagreen*/
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size:20px;
+  font-weight:720;
+}
+
+.navbar-right a:hover:not(.active){
+  text-decoration:underline;
+  background-color:white;
+}
+.navbar-logo{
+  padding-left:7%;
+  padding-top: 10px;
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size:30px;
+  font-weight:750;
+  text-decoration:none;
+  color:#064F40;
+}
+h1{
+@import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
+  font-size: 36px;
+  font-weight:650;
+  font-family: 'Muli';
+  color: rgba(0, 0, 0, 0.8);
+  padding-top:20px;
+}
+iframe{
+  float:left;
+}
+.F-info{
+  @import url('https://fonts.googleapis.com/css?family=Quicksand&display=swap');/*Imported font for all pages*/
+  font-size:22px;
+  font-family: sans-serif;
+  line-height: 1.5;
+  color: rgba(0, 0, 0, 0.8);
+  float:right
+  text-indent:70px;
+  display:inline-block
+}
+.footerStyle {
+ position:fixed;
+ bottom: 0px;
+ right:0;
+ z-index:-1;
+ height:40px;
+ background-color:#FFE4C4;
+}
+.footerStyle ul{
+  padding-top:0px;
+  padding-bottom:0px;
+  bottom:0px
+  width:100%;
+  z-index:-1;
+}
+.footerStyle li{
+  display:inline-block;
+  float:right;
+}
+
+.footerStyle li a{
+  text-decoration:none;
+  padding-right:20px;
+  color: #064F40; /*This is a kind of seagreen*/
+  font-family:Avantgarde, TeX Gyre Adventor, URW Gothic L, sans-serif;
+  font-size:20px;
+  font-weight:720;
+}
+
+body{
+  background-color: #FFF8DC;
+}

@@ -48,7 +48,6 @@
 }
 body{
   background-color: #FFF8DC;
-  padding-top:20px;
 }
 h1{
   @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
@@ -103,7 +102,6 @@ h2{
 .IWD{
   width: 500px;
   height:490px;
-  padding-top:0;
 }
 .SC{
   width: 550PX;

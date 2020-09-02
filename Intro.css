@@ -37,7 +37,7 @@
   text-decoration:none;
   color:#064F40;
 }
-.footerStyle ul {
+.footerStyle {
    position: sticky;
    left: 0;
    bottom: 0;

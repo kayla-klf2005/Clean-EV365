@@ -70,7 +70,7 @@ p{
   font-size: 20px;
   padding-top: 35px;
   white-space: pre-line;
-  text-indent:right;
+  text-indent:10px;
 }
 h2{
   @import url('https://fonts.googleapis.com/css?family=Muli&display=swap');
